@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>AJAX/PHP/CURL/JSON project</title>
+		<meta name="description" content="AJAX/PHP/CURL/JSON project">
+		<meta name="author" content="Weronika Limberger">
+
+	</head>
+
+	<body>
+
+		<select id="selCountry">
+			<option value="GB">Great Britain</option>
+			<option value="FR">France</option>
+			<option value="DE">Germany</option>
+			<option value="US">USA</option>
+		</select>
+
+		<button id="btnRun">Run</button>
+
+		<br><br>
+
+		<div id="divResults">
+			
+			<table>
+				<tr>
+					<td align="right"> Continent: </td>
+					<td id="txtContinent"> </td>
+				</tr>
+
+				<tr>
+					<td align="right">	Capital: </td>
+					<td id="txtCapital"> </td>
+				</tr>
+
+				<tr>
+					<td align="right">	Languages: 	</td>
+					<td id="txtLanguages"></td>
+				</tr>
+
+				<tr>
+					<td align="right">	Population: </td>
+					<td id="txtPopulation"></td>
+				</tr>
+
+				<tr>
+					<td align="right">	Area (km<sup>2</sup>): 	</td>
+					<td id="txtArea"></td>
+				</tr>
+
+
+			</table>
+
+		</div>
+
+<!-- wiki info -->
+
+		<select id="sel1">
+			<option value="Ireland">Ireland</option>
+			<option value="England">England</option>
+			<option value="France">France</option>
+			<option value="Spain">Spain</option>
+		</select>
+
+		<button id="btnRun2">Run2</button>
+
+		<div id="divResults2">
+			Wiki Results Summary:
+			<br>
+			<p id="txtWiki"></p>			
+
+		</div>
+
+		<!-- wiki info try number 2 -->
+		<!-- <form id='form1' name='form1'>
+			<p>Please select your choice:</p>
+			<input type="radio" id="England" name="q" value="England">
+			<label for="England">England</label><br>
+			<input type="radio" id="Germany" name="q" value="Germany">
+			<label for="Germany">Germany</label><br>
+			<br>  
+			<input type="submit" value="Submit" id="btnRun3">
+		  </form>
+
+		  <div id="divResults3">			
+			<table>
+				<tr>
+					<td align="right"> Results: </td>
+					<td id="txtWiki2"> </td>
+				</tr>
+			</table>
+		  </div> -->
+
+
+		<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="libs/js/script.js"></script>
+
+	</body>
+
+</html>
